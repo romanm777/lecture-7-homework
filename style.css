@@ -1,0 +1,236 @@
+.container {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid black;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#yellow1 p, #yellow2 p, #yellow3 p, #yellow4 p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.center_number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#red {
+  background: red;
+  width: 100%;
+  height: 105px;
+  margin: 10px 2% 10px 2%;
+}
+
+#yellow {
+  width: 100%;
+  margin: 0 2% 10px 2%;
+}
+
+#yellow1 {
+  background: yellow;
+  width: 100%;
+  height: 337.5px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#yellow2 {
+  background: yellow;
+  display: none;
+  width: 100%;
+  height: 100px;
+}
+
+#yellow3 {
+  background: yellow;
+  width: 100%;
+  height: 100px;
+  display: none;
+}
+
+#yellow4 {
+  background: yellow;
+  width: 100%;
+  height: 100px;
+  display: none;
+}
+
+#orange {
+  background: orange;
+  width: 100%;
+  height: 322.5px;
+  margin: 0 2% 10px 2%;
+}
+
+#green {
+  background: green;
+  width: 100%;
+  height: 322.5px;
+  margin: 0 2% 10px 2%;
+}
+
+#violet {
+  background: violet;
+  width: 100%;
+  height: 322.5px;
+  margin: 0 2% 10px 2%;
+}
+
+#blue {
+  background: blue;
+  width: 100%;
+  height: 322.5px;
+  margin: 0 2% 10px 2%;
+}
+
+
+@media only screen and (min-width : 481px) and (max-width : 767px) {
+  #red {
+    height: 60.4px;
+    margin: 10px 1% 10px 1%;
+    order: 0;
+  }
+
+
+  #yellow {
+    margin: 0 1% 10px 1%;
+    order: 3;
+  }
+
+  #yellow1 {
+    width: 100%;
+    height: 247.6px;
+    margin: 0;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #yellow2 {
+    display: none;
+    width: 100%;
+    height: 100px;
+  }
+
+  #yellow3 {
+    width: 100%;
+    height: 100px;
+    display: none;
+  }
+
+  #yellow4 {
+    width: 100%;
+    height: 100px;
+    display: none;
+  }
+
+  #orange {
+    width: 68%;
+    height: 199.3px;
+    margin: 0 1% 10px 1%;
+    order: 1;
+  }
+
+  #green {
+    width: 29%;
+    height: 199.3px;
+    margin: 0 1% 10px 0;
+    order: 2;
+  }
+
+  #violet {
+    width: 100%;
+    height: 392.6px;
+    margin: 0 1% 10px 1%;
+    order: 4;
+  }
+
+  #blue {
+    width: 100%;
+    height: 199.3px;
+    margin: 0 1% 10px 1%;
+    order: 5;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  #red {
+    height: 60.4px;
+    margin: 10px 1% 10px 1%;
+    order: 0;
+  }
+
+
+  #yellow {
+    width: 75%;
+    height: 290px;
+    margin: 0 0.7% 10px 1%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    order: 2;
+  }
+
+  div#yellow1, div#yellow2, div#yellow3, div#yellow4 {
+    width: 49%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #yellow1 {
+    margin: 0 1.5% 0 0;
+  }
+
+  #yellow2 {
+    margin: 0;
+  }
+
+  #yellow3 {
+    margin: 10px 1.5% 0 0;
+  }
+
+  #yellow4 {
+    margin: 10px 0 0 0;
+
+  }
+
+  #orange {
+    width: 100%;
+    height: 199.3px;
+    margin: 0 1% 10px 1%;
+    order: 1;
+  }
+
+  #green {
+    width: 22.28%;
+    height: 550px;
+    margin: 0 1% 10px 0;
+    order: 3;
+  }
+
+  #violet {
+    width: 74.75%;
+    height: 597px;
+    margin: 160px 1% 10px 1%;
+    order: 4;
+  }
+
+  #blue {
+    width: 22.22%;
+    height: 440px;
+    margin: 0 1% 10px 0;
+    order: 5;
+  }
+}
