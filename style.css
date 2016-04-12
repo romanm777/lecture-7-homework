@@ -2,7 +2,6 @@
   margin: 0;
   width: 100%;
   height: 100%;
-  border-bottom: 2px solid black;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -109,7 +108,6 @@
     width: 100%;
     height: 247.6px;
     margin: 0;
-    border: 1px dashed black;
     display: flex;
     flex-direction: column;
     justify-content: center;
